@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     agentFeedback: true,
   },
   turbopack: {
+    root: "D:/next+AI/mystery",
     rules: {
       "*.css": {
         loaders: ["@tailwindcss/turbopack"],
